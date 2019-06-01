@@ -5,7 +5,6 @@ module.exports = {
 
     output: {
         path: path.join(__dirname, 'dist'),
-
         filename: 'main.js'
     },
     devServer: {
@@ -52,7 +51,7 @@ module.exports = {
                     loader: 'url-loader',
                     options: {
                         // limit表示如果图片大于50000byte，就以路径形式展示，小于的话就用base64格式展示
-                        limit: 50000
+                        limit: 1000
                     }
                 }]
             },
