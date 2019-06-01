@@ -4,10 +4,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 //使用路由
 Vue.use(VueRouter)
-// //引入vue跨域系统
-// import VueResource from 'vue-resource'
-// //使用vue跨域
-// Vue.use(VueResource)
 //引入默认组件
 import App from './App.vue'
 //引入首页组件
